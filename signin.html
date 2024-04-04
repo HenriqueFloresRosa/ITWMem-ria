@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Registo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Workbench&display=swap" rel="stylesheet">
+    <title class="silkscreen-bold">Registo</title>
 </head>
-<body>
-    <h1>Registo</h1>
-    <button id="botao" onclick="window.location.href='home.html';">Entrar</button>
-    <form action="">
-        <p><label for="first">
+<body class="silkscreen-regular">
+    <h1 class="silkscreen-bold">Registo</h1>
+    <form action="home.html" class="login">
+        <p><label for="first" class="username">
               Username:
           </label>
         <input type="text"
@@ -27,7 +29,7 @@
                placeholder="Enter your Password" required></p>
 
         <div class="wrap">
-            <button type="submit"
+            <button type="submit" class="botao"
                     onclick="solve()">
                 Submit
             </button>
@@ -35,7 +37,7 @@
     </form>
     <a href="createAcc.html">Criar conta</a>
     <div>
-        <audio controls autoplay muted>
+        <audio controls autoplay muted hidden>
             <source src="multimedia/LavenderTown.mp3 " type="audio/mp3 ">
         
             Your browser does not support the audio element.

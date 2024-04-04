@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Ajuda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Workbench&display=swap" rel="stylesheet">
+    <title class="silkscreen-bold">Ajuda</title>
 </head>
-<body>
-    <h1>Ajuda</h1>
-    <h2>Como jogar</h2>
+<body class="silkscreen-regular">
+    <h1 class="silkscreen-bold">Ajuda</h1>
+    <h2 class="silkscreen-bold">Como jogar</h2>
     <div>
         <ol>
             <li>Cada mesa de jogo têm um número par de cartas</li>
@@ -19,9 +22,9 @@
             <img src="multimedia/imagens/passo3.png" alt="passo3">
         </ol>
     </div>
-    <p><button id="botao" onclick="window.location.href='home.html';">Voltar atrás</button></p>
+    <p><button class="botao" onclick="window.location.href='home.html';">Voltar atrás</button></p>
     <div>
-        <audio controls autoplay muted>
+        <audio controls autoplay muted hidden>
             <source src="multimedia/LavenderTown.mp3 " type="audio/mp3 ">
         
             Your browser does not support the audio element.

@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Workbench&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
-<body>
-    <h1>Bem vindo ao Jogo da Memória</h1>
-    <p><button id="botao" onclick="window.location.href='newGame.html';">Jogar</button></p>
-    <p><button id="botao" onclick="window.location.href='gameModes.html';">Modos de Jogo</button></p>
-    <p><button id="botao" onclick="window.location.href='help.html';">Ajuda</button></p>
-    <p><button id="botao" onclick="window.location.href='signin.html';">Voltar atrás</button></p>
+<body class="silkscreen-regular">
+    <h1 class="silkscreen-bold">Bem vindo ao Jogo da Memória</h1>
+    <p><button class="botao" onclick="window.location.href='newGame.html';">Jogar</button></p>
+    <p><button class="botao" onclick="window.location.href='gameModes.html';">Modos de Jogo</button></p>
+    <p><button class="botao" onclick="window.location.href='help.html';">Ajuda</button></p>
+    <p><button class="botao" onclick="window.location.href='signin.html';">Voltar atrás</button></p>
     <div>
-        <audio controls autoplay muted>
+        <audio controls autoplay muted hidden>
             <source src="multimedia/LavenderTown.mp3 " type="audio/mp3 ">
         
             Your browser does not support the audio element.
