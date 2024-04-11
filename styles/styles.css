@@ -20,6 +20,7 @@ body{
 .creditos{
   display: grid;
   place-items: center;
+  margin-top:100px;
 }
 
 .audio {
@@ -27,6 +28,6 @@ body{
 }
 
 .tutimg{
-  width: 1000px;
-  height: 300px;
+  width: 700px;
+  height: 100x;
 }
