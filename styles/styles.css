@@ -1,9 +1,39 @@
+@media only screen  and (max-width: 600px){
+.menu{
+  display: block;
+  place-items: center;
+  text-align: center;
+  padding: 50px;
+
+}
+.botao{
+  margin: 10px;
+}
+}
+  
+
 body{
     background-color: lightpink;
     display: grid;
     place-items: center;
     
 }
+
+.table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid purple;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: purple;
+}
+
 
 .silkscreen-regular {
     font-family: "Silkscreen", sans-serif;
