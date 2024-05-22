@@ -1,0 +1,8 @@
+<!-- Grupo: 24, 
+    Número: 58670, Nome: Gildo Conceição, PL: 21 
+    Número: 56699, Nome: Guilherme Lima, PL: 24
+    Número: 58618, Nome: Henrique Venâncio, PL:21
+
+Gildo Conceição-30%
+Guilherme Lima-30%
+Henrique Venâncio-40%
